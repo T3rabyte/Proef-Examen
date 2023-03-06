@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/SingingFrogs.unity
+    guid: c44f48c162b815b4e8b8fe4e8ec82be1
+  - enabled: 0
+    path: Assets/Scenes/Map.unity
+    guid: eeb150cd5ec493240ac21130157721ce
+  m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: ffa17430dd55d3f4da8762e6377d2516, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 6b061ab604b8c18499706b592d5c8428, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 6d40bf5289f559d4eae0318e243e4b08, type: 2}
