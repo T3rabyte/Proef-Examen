@@ -5,6 +5,8 @@ using UnityEngine;
 public class Rail : MonoBehaviour
 {
 
+    public GameObject[] waypoints;
+
     public float closestDistance = Mathf.Infinity;
     public float secondClosestDistance = Mathf.Infinity;
     public string waypointTag = "waypoint";
@@ -90,14 +92,17 @@ public class Rail : MonoBehaviour
 
         Vector3 playerToProjected = projectedPosition - player.position;
         float angle = Vector3.SignedAngle(player.forward, playerToProjected, Vector3.up);
-        player.rotation = Quaternion.Euler(0f, angle, 0f);
+        //player.rotation = Quaternion.Euler(0f, angle, 0f);
     }
 
     private void OnDrawGizmos()
     {
+        // Shows the connected Waypoints
         Gizmos.color = Color.blue;
         Gizmos.DrawLine(player.position, closestWaypoint1.position);
         Gizmos.DrawLine(player.position, closestWaypoint2.position);
+
+        //Shows the line between player and projection
         Gizmos.color = Color.green;
         Gizmos.DrawLine(player.position, projectedPosition);
     }
