@@ -10,7 +10,7 @@ Voor de examen opdracht moest er een game gemaakt worden die Augmented Reality g
 
 Student, Teun Bruin:
 
- - [SingingForgs minigame](https://www.google.com](https://github.com/T3rabyte/Proef-Examen/tree/origin/minigame%232_memory/proef%20proeve/Assets/src/Singing%20Frogs "SingingForgs minigame")
+ - [SingingForgs minigame](https://github.com/T3rabyte/Proef-Examen/tree/origin/minigame%232_memory/proef%20proeve/Assets/src/Singing%20Frogs "SingingForgs minigame")
  - [Memory minigame](https://github.com/T3rabyte/Proef-Examen/tree/origin/minigame%232_memory/proef%20proeve/Assets/src/memory "SingingForgs minigame")
  - [Zoek de dieren minigame](https://github.com/T3rabyte/Proef-Examen/tree/origin/minigame%232_memory/proef%20proeve/Assets/src/Tracks "Zoek de dieren")
  - [GPS](https://github.com/T3rabyte/Proef-Examen/tree/origin/minigame%232_memory/proef%20proeve/Assets/src/gps "GPS")
