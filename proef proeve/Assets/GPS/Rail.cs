@@ -34,6 +34,8 @@ public class Rail : MonoBehaviour
     {
         RailLockOn();
 
+        projectedObject.rotation = player.rotation;
+
         if (projectedObject.position == closestWaypoint1.position || projectedObject.position == closestWaypoint2.position)
         {
             FindWaypoints();
