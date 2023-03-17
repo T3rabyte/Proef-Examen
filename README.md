@@ -20,4 +20,4 @@ Student, Jaimy:
 
 Voor deze minigame waren er 3 kikkers, de kikkers zingen in een random volgorde, die de gebruiker dan na klikt. dit gebeurd in opbouwende volgorde met eerst 1 kikker t/m uiteindelijk 5 kikkers. wanneer de gebruiker de volgorde fout heeft herhalen de kikkers zich en kan de gebruiker het opnieuw proberen. Wanneer de game af is kan de gebruiker het spel opnieuw spelen (met een nieuwe volgorde) of terug naar de map.
 
-[alt text](https://cdn.discordapp.com/attachments/417058981526110240/1086290575105466378/SingingFrogs.gif "SingingFrogs gif")
+![alt text](https://cdn.discordapp.com/attachments/417058981526110240/1086290575105466378/SingingFrogs.gif "SingingFrogs gif")
