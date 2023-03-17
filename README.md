@@ -21,3 +21,19 @@ Student, Jaimy:
 Voor deze minigame waren er 3 kikkers, de kikkers zingen in een random volgorde, die de gebruiker dan na klikt. dit gebeurd in opbouwende volgorde met eerst 1 kikker t/m uiteindelijk 5 kikkers. wanneer de gebruiker de volgorde fout heeft herhalen de kikkers zich en kan de gebruiker het opnieuw proberen. Wanneer de game af is kan de gebruiker het spel opnieuw spelen (met een nieuwe volgorde) of terug naar de map.
 
 ![alt text](https://cdn.discordapp.com/attachments/417058981526110240/1086290575105466378/SingingFrogs.gif "SingingFrogs gif")
+
+```mermaid
+graph TD;
+    start((Start)) --> fillDic(Fill dictonary with frogs sprites);
+    fillDic --> genOrder(Generate order);
+    genOrder --> startMini(Frogs sing order);
+    startMini --> userInput[/User repeats order/];
+    userInput --> correctOrder{User repeated correct order?};
+    correctOrder -->|no| startMini;
+    correctOrder -->|yes| complete{Has the user correctly done this 5 times?};
+    complete -->|no| genOrder;
+    complete -->|yes| finished(Player gets end screen and th eoption to play again);
+    finished -->|player wants to play again| empty(reset game);
+    empty --> genOrder;
+    finished -->|player chooses to return to main screen| end_d((end));
+```
