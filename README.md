@@ -13,8 +13,9 @@ Student, Teun:
 
 Student, Jaimy:
 
- - GPS Rail Systeem
- - GPS
+ - [GPS Rail Systeem](https://github.com/T3rabyte/Proef-Examen/tree/origin/feature%233_GPS/proef%20proeve/Assets/src/Rail)
+ - [GPS](https://github.com/T3rabyte/Proef-Examen/tree/origin/minigame%232_memory/proef%20proeve/Assets/src/gps "GPS")
+ - UI
 
 # SingingFrogs minigame by Teun
 
@@ -37,3 +38,9 @@ graph TD;
     empty --> genOrder;
     finished -->|player chooses to return to main screen| end_d((end));
 ```
+
+
+# GPS Rail Systeem by Jaimy
+De manier hoe ik de GPS Rail Systeem heb aangepakt was als volgt. De spelers GPS locatie checkt voor de 2 dichtstbijzijnde waypoints en probeert dan een projectie van de speler op die lijn te casten. Deze projectie is wat de Speler ziet als hun locatie. Ook houd dit systeem in de gaten dat 2 waypoints niet hetzelfde zijn. Ook kan de speler in de tegen gestelde richting gaan zonder problemen.
+
+![alt text](https://cdn.discordapp.com/attachments/1085706981391736892/1086285370393636864/Railtechdemo.gif)
