@@ -141,7 +141,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &20664104
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1583,7 +1583,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &374516638
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2615,7 +2615,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 795739463}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1114969292}
+        m_TargetAssemblyTypeName: UIClass, Assembly-CSharp
+        m_MethodName: PlayGame3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &795739463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2804,21 +2816,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1c525fb32078314aa6636eb2b54d305, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GPSStatus: {fileID: 921574769}
-  latitudeValue: {fileID: 1549267209}
-  longitudeValue: {fileID: 541598205}
-  altitudeValue: {fileID: 0}
-  horizontalAccuracyValue: {fileID: 21151322}
-  timestampValue: {fileID: 0}
-  accZ: {fileID: 1095040044}
-  accX: {fileID: 86404328}
-  yLoc: 0
-  xLoc: 0
-  oldXLoc: 0
-  oldYLoc: 0
-  oldRot: 0
-  newRot: 0
-  player: {fileID: 1139572687}
 --- !u!4 &851389505
 Transform:
   m_ObjectHideFlags: 0
@@ -3176,7 +3173,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 923505148}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1114969292}
+        m_TargetAssemblyTypeName: UIClass, Assembly-CSharp
+        m_MethodName: PlayGame1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &923505148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3676,7 +3685,6 @@ MonoBehaviour:
   hubButtons: {fileID: 99453893}
   miniGames: {fileID: 128521996}
   hudUI: {fileID: 1736419828}
-  quitGameUI: {fileID: 0}
 --- !u!1 &1139572687
 GameObject:
   m_ObjectHideFlags: 0
@@ -4791,7 +4799,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1575291292}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1114969292}
+        m_TargetAssemblyTypeName: UIClass, Assembly-CSharp
+        m_MethodName: PlayGame2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1575291292
 MonoBehaviour:
   m_ObjectHideFlags: 0

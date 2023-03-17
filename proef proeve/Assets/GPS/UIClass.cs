@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UIClass : MonoBehaviour
 {
@@ -8,8 +9,13 @@ public class UIClass : MonoBehaviour
     [SerializeField] GameObject hubButtons;
     [SerializeField] GameObject miniGames;
     [SerializeField] GameObject hudUI;
-    [SerializeField] GameObject quitGameUI;
+    //[SerializeField] GameObject quitGameUI;
 
+    private void Start()
+    {
+        MainMenu();
+        Screen.orientation = ScreenOrientation.LandscapeLeft;
+    }
 
     public void HUB()
     {
@@ -17,7 +23,7 @@ public class UIClass : MonoBehaviour
         hubButtons.SetActive(true);
         miniGames.SetActive(false);
         hudUI.SetActive(false);
-        quitGameUI.SetActive(false);
+       // quitGameUI.SetActive(false);
     }
 
     public void MainMenu()
@@ -26,7 +32,7 @@ public class UIClass : MonoBehaviour
         hubButtons.SetActive(false);
         miniGames.SetActive(false);
         hudUI.SetActive(true);
-        quitGameUI.SetActive(false);
+       // quitGameUI.SetActive(false);
     }
 
     public void OpenGames()
@@ -35,9 +41,10 @@ public class UIClass : MonoBehaviour
         hubButtons.SetActive(false);
         miniGames.SetActive(true);
         hudUI.SetActive(false);
-        quitGameUI.SetActive(false);
+       // quitGameUI.SetActive(false);
     }
 
+    /*
     public void QuitGame()
     {
         hubUI.SetActive(true);
@@ -51,4 +58,19 @@ public class UIClass : MonoBehaviour
     {
 
     }
+    */
+
+    public void PlayGame1()
+    {
+        SceneManager.LoadScene("SingingFrogs");
+    }
+    public void PlayGame2()
+    {
+        SceneManager.LoadScene("Memory");
+    }
+    public void PlayGame3()
+    {
+        SceneManager.LoadScene("Tracks");
+    }
+
 }
