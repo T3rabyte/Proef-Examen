@@ -6,11 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SingingFrogs.unity
-    guid: c44f48c162b815b4e8b8fe4e8ec82be1
-  - enabled: 0
     path: Assets/Scenes/Map.unity
     guid: eeb150cd5ec493240ac21130157721ce
+  - enabled: 1
+    path: Assets/Scenes/Minigames/SingingFrogs.unity
+    guid: c44f48c162b815b4e8b8fe4e8ec82be1
+  - enabled: 1
+    path: Assets/Scenes/Minigames/Tracks.unity
+    guid: ad394818170603e46aff4f154cbeac28
+  - enabled: 1
+    path: Assets/Scenes/Minigames/Memory.unity
+    guid: 914720fef34994048b7ddd6e380e231b
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: ffa17430dd55d3f4da8762e6377d2516, type: 2}
     com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 6b061ab604b8c18499706b592d5c8428, type: 2}
