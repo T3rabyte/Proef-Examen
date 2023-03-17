@@ -4,6 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - deer
+  - frog
+  - fox
   - Waypoint
   - PlayerProjection
   layers:
@@ -13,8 +16,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - forest
+  - animal
   - 
   - 
   - 
