@@ -6,13 +6,14 @@ Omschrijf de examenopdracht evt de klant en wat het doel voor de klant is. Omsch
 
 Voor de examen opdracht moest er een game gemaakt worden die Augmented Reality gameplay elementen integreren in een wandelroute. De klant (Berbas) is een Bed & breakfast gelegen in de Veluwe, om de wandeling voor kinderen dragelijker te maken. Voor de game hebben we gekozen voor een concept waarbij we de gps locatie gebruiken 
 
+# Geproduceerde Game Onderdelen
+
 Student, Teun Bruin:
 
-Wave System
-Some other mechanic X
-Some other mechanic Y Student Y:
-Water Shader
-Some textured and rigged model
+ - [SingingForgs minigame](https://www.google.com](https://github.com/T3rabyte/Proef-Examen/tree/origin/minigame%232_memory/proef%20proeve/Assets/src/Singing%20Frogs "SingingForgs minigame")
+ - [Memory minigame](https://github.com/T3rabyte/Proef-Examen/tree/origin/minigame%232_memory/proef%20proeve/Assets/src/memory "SingingForgs minigame")
+ - [Zoek de dieren minigame](https://github.com/T3rabyte/Proef-Examen/tree/origin/minigame%232_memory/proef%20proeve/Assets/src/Tracks "Zoek de dieren")
+ - [GPS](https://github.com/T3rabyte/Proef-Examen/tree/origin/minigame%232_memory/proef%20proeve/Assets/src/gps "GPS")
 
 Student Z:
 
